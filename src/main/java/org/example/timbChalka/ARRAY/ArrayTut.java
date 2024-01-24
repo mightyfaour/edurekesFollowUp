@@ -3,6 +3,9 @@ package org.example.timbChalka.ARRAY;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/*
+created by Philip Nwodu for a learning purpose
+*/
 public class ArrayTut {
 
     private static Scanner scanner = new Scanner(System.in);
@@ -28,14 +31,15 @@ public class ArrayTut {
         }
     }
 
-    public static int[] sortInteger(int[]array){
+    public static int[] sortInteger(int[] array) {
         //copying or taking the content of an array and storing it in another array one by one-----------------------
-        int[] sortedArray = new int[array.length];
-        for (int i = 0; i < array.length; i++) {
-            sortedArray[i] = array[i];
-        }
+//        int[] sortedArray = new int[array.length];
+//        for (int i = 0; i < array.length; i++) {
+//            sortedArray[i] = array[i];
+//        }
         //-------------------------------OR--------------------------
-//        int[] sortArray = Arrays.copyOf(array,array.length);
+        int[] sortedArray = Arrays.copyOf(array, array.length);
+
         // this  is a sorting method -------------------------------------
         boolean flag = true;
         int temp;

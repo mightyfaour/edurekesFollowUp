@@ -2,6 +2,9 @@ package org.example.timbChalka.ARRAY;
 
 import java.util.Scanner;
 
+/*
+created by Philip Nwodu for a learning purpose
+*/
 public class ArrayResize {
     private static Scanner s = new Scanner(System.in);
     private static int[] baseData = new int[10];

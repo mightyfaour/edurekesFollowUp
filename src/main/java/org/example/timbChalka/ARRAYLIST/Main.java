@@ -1,5 +1,6 @@
 package org.example.timbChalka.ARRAYLIST;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -35,6 +36,9 @@ public class Main {
                         searchForItem();
                         break;
                     case 6:
+                        processArrayList();
+                        break;
+                    case 7:
                         quit = true;
                         break;
                 }
@@ -42,7 +46,7 @@ public class Main {
     }
 
     public static  void printInstruction(){
-        System.out.println("\npress");
+        System.out.println("\n Press");
         System.out.println("\t 0 - To print choice options.");
         System.out.println("\t 1 - To print the list of grocery items.");
         System.out.println("\t 2 - To add an item to the list.");
@@ -58,28 +62,39 @@ public class Main {
     }
 
     public static void modifyItem(){
-        System.out.print("Enter item number: ");
-        int itemNo = scanner.nextInt();
-        scanner.nextLine();
+        System.out.print("Current Item name: ");
+        String itemNo = scanner.nextLine();
         System.out.print("Enter replacement item: ");
         String newItem = scanner.nextLine();
-        groceryList.modifyGroceryItem(itemNo - 1, newItem);
+        groceryList.modifyGroceryItem(itemNo, newItem);
     }
 
     public static void removeItem(){
-        System.out.print("Enter item number: ");
-        int itemNo = scanner.nextInt();
+        System.out.print("Enter item name: ");
+        String itemNo = scanner.nextLine();
         System.out.print("Enter replacement item: ");
-        groceryList.removeGroceryItem(itemNo - 1);
+        groceryList.removeGroceryItem(itemNo);
     }
 
     public static void searchForItem() {
         System.out.print("Enter Item to search for: ");
         String searchItem = scanner.nextLine();
-        if (groceryList.findItem(searchItem) != null) {
-            System.out.print("Found "+ searchItem + " in our grocery list");
+        if (groceryList.onFile(searchItem)) {
+            System.out.print("Found "+ searchItem + " i n our grocery list");
         } else {
             System.out.println(searchItem + " is not in our shopping list");
         }
+    }
+//A method to copy an array list to anothe array list
+    public static void processArrayList(){
+        ArrayList<String> newArray = new ArrayList<>();
+        newArray.addAll(groceryList.getGroceryList());
+
+//        OR
+//        ArrayList<String> nextArray = new ArrayList<>(groceryList.getGroceryList());
+//        OR to copy from Arraylist to a normal array
+
+        String[] myArray = new String[groceryList.getGroceryList().size()];
+        myArray = groceryList.getGroceryList().toArray(myArray);
     }
 }

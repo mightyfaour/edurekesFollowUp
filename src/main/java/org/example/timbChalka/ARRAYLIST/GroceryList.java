@@ -5,6 +5,10 @@ import java.util.ArrayList;
 public class GroceryList {
     private ArrayList<String> groceryList = new ArrayList<String>();
 
+    public ArrayList<String> getGroceryList() {
+        return groceryList;
+    }
+
     //using CRUD
     //C - Create or Add items to a list
     public void addGroceryItem(String item){
@@ -19,13 +23,13 @@ public class GroceryList {
     }
 
     //U - Update items in a list
-    private void modifyGroceryItem(String newItem){
+    public void modifyGroceryItem(String currentItem, String newItem){
         int position = findItem(newItem);
         if (position >= 0){
             modifyGroceryItem(position, newItem);
         }
     }
-    public void modifyGroceryItem(int position, String newItem){
+    private void modifyGroceryItem(int position, String newItem){
         groceryList.set(position, newItem);
         System.out.println("Grocery item " + (position + 1) + " has been modified");
     }
@@ -37,12 +41,11 @@ public class GroceryList {
             removeGroceryItem(position);
         }
     }
-    public void removeGroceryItem(int position){
-        String theItem = groceryList.get(position);
+    private void removeGroceryItem(int position){
         groceryList.remove(position);
     }
 
-    public int findItem(String searchItem){
+    private int findItem(String searchItem){
 
        return groceryList.indexOf(searchItem);
         //OR
@@ -51,6 +54,13 @@ public class GroceryList {
 //            return groceryList.get(position);
 //        }
 //        return null;
+    }
+    public boolean onFile(String searchItem){
+        int position = findItem(searchItem);
+        if (position >= 0){
+            return true;
+        }
+        return false;
     }
 }
 

@@ -3,6 +3,9 @@ package org.example.timbChalka.ARRAY;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/*
+created by Philip Nwodu for a learning purpose
+*/
 public class MinimumElementChallenge {
     private static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {

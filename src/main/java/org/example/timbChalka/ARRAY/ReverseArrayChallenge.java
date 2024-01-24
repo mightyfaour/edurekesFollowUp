@@ -2,6 +2,9 @@ package org.example.timbChalka.ARRAY;
 
 import java.util.Arrays;
 
+/*
+created by Philip Nwodu for a learning purpose
+*/
 public class ReverseArrayChallenge {
     public static void main(String[] args) {
         int[] array = {1, 5, 3, 7, 11, 9, 15};
