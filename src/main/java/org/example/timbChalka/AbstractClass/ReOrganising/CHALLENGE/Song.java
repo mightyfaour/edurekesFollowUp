@@ -1,6 +1,4 @@
-package org.example.timbChalka.LINKEDLIST.CHALLENGE;
-
-import java.time.Duration;
+package org.example.timbChalka.AbstractClass.ReOrganising.CHALLENGE;
 
 public class Song {
     private String title;

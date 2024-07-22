@@ -5,27 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0930c3a-60ae-45bd-866e-be6fbe42888c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/AutoboxingAndUnboxingChallenge/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/AutoboxingAndUnboxingChallenge/Branch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/AutoboxingAndUnboxingChallenge/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/AutoboxingAndUnboxingChallenge/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/CHALLENGE/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/CHALLENGE/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/CHALLENGE/MobilePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/LINKEDLIST/CHALLENGE/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/LINKEDLIST/CHALLENGE/Song.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/LINKEDLIST/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/LINKEDLIST/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/LINKEDLIST/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/Array2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/DeskPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ITelephone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/MobilePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/InterfaceChallenge/ISaveable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/InterfaceChallenge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/InterfaceChallenge/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Condition3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Conditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Conditions2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/LINKEDLIST/CHALLENGE/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Methods_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Object_Classes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/ArrayResize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/ArrayResize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/ArrayTut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/ArrayTut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/MinimumElementChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/MinimumElementChallenge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/ReverseArrayChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/ReverseArrayChallenge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/GroceryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/GroceryList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/LINKEDLIST/CHALLENGE/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/LINKEDLIST/CHALLENGE/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/LINKEDLIST/CHALLENGE/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/LINKEDLIST/CHALLENGE/Song.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -51,41 +53,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayResize.executor": "Run",
-    "Application.ArrayTut.executor": "Run",
-    "Application.Demo.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MinimumElementChallenge.executor": "Run",
-    "Application.ReverseArrayChallenge.executor": "Run",
-    "Application.org.example.timbChalka.ARRAYLIST.AutoboxingAndUnboxingChallenge.Main.executor": "Run",
-    "Application.org.example.timbChalka.ARRAYLIST.CHALLENGE.Main.executor": "Run",
-    "Application.org.example.timbChalka.LINKEDLIST.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.preview.features.used": "true",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Addition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Array2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayResize.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayTut.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Conditions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Conditions2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Methods_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumElementChallenge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArrayChallenge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sample1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.timbChalka.ARRAYLIST.AutoboxingAndUnboxingChallenge.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.timbChalka.ARRAYLIST.CHALLENGE.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.timbChalka.AbstractClass.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.timbChalka.AbstractClass.ReOrganising.CHALLENGE.InterfaceChallenge.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.timbChalka.LINKEDLIST.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/philip_neo/Desktop/All_Backend/edurekesFollowUp/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.timbChalka.POLIMORPHYSM.Challenge" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
-    <configuration name="ArrayTut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.ARRAY.ArrayTut" />
+  <component name="RunManager" selected="Application.Methods_1">
+    <configuration name="Array2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.ARRAY.Array2" />
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.timbChalka.ARRAYLIST.*" />
+          <option name="PATTERN" value="org.example.timbChalka.ARRAY.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.LINKEDLIST.Demo" />
+    <configuration name="Conditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.Conditions" />
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.timbChalka.LINKEDLIST.*" />
+          <option name="PATTERN" value="org.example.timbChalka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.timbChalka.ARRAYLIST.AutoboxingAndUnboxingChallenge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.ARRAYLIST.AutoboxingAndUnboxingChallenge.Main" />
+    <configuration name="Conditions2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.Conditions2" />
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.timbChalka.ARRAYLIST.AutoboxingAndUnboxingChallenge.*" />
+          <option name="PATTERN" value="org.example.timbChalka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.timbChalka.ARRAYLIST.CHALLENGE.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.ARRAYLIST.CHALLENGE.Main" />
+    <configuration name="Methods_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.Methods_1" />
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.timbChalka.ARRAYLIST.CHALLENGE.*" />
+          <option name="PATTERN" value="org.example.timbChalka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.timbChalka.LINKEDLIST.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.LINKEDLIST.Main" />
+    <configuration name="Object_Classes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.Object_Classes" />
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.timbChalka.LINKEDLIST.*" />
+          <option name="PATTERN" value="org.example.timbChalka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,18 +167,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.org.example.timbChalka.LINKEDLIST.Main" />
-        <item itemvalue="Application.org.example.timbChalka.ARRAYLIST.AutoboxingAndUnboxingChallenge.Main" />
-        <item itemvalue="Application.org.example.timbChalka.ARRAYLIST.CHALLENGE.Main" />
-        <item itemvalue="Application.ArrayTut" />
+        <item itemvalue="Application.Methods_1" />
+        <item itemvalue="Application.Object_Classes" />
+        <item itemvalue="Application.Conditions2" />
+        <item itemvalue="Application.Conditions" />
+        <item itemvalue="Application.Array2" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-249ae16d76d6-7c0527ad" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -170,8 +191,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686526736459</updated>
+      <workItem from="1713007021952" duration="854000" />
+      <workItem from="1716562587450" duration="631000" />
+      <workItem from="1719527707953" duration="1101000" />
+      <workItem from="1719550234134" duration="401000" />
+      <workItem from="1721477181998" duration="7232000" />
+      <workItem from="1721572013428" duration="1145000" />
+      <workItem from="1721603413852" duration="2209000" />
+      <workItem from="1721648265974" duration="3004000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
