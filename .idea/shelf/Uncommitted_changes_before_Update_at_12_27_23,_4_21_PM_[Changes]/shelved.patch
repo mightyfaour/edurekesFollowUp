@@ -1,0 +1,553 @@
+Index: src/main/java/org/example/timbChalka/ARRAYLIST/GroceryList.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.timbChalka.ARRAYLIST;\n\nimport java.util.ArrayList;\n\npublic class GroceryList {\n    private ArrayList<String> groceryList = new ArrayList<String>();\n\n    //using CRUD\n    //C - Create or Add items to a list\n    public void addGroceryItem(String item){\n        groceryList.add(item);\n    }\n    //R - Read items in a list\n    public void printGroceryList(){\n        System.out.println(\"you have \"+ groceryList.size()+ \" items in your grocery List\");\n        for (int i = 0; i < groceryList.size(); i++) {\n            System.out.println((i+1)+\", \"+groceryList.get(i));\n        }\n    }\n\n    //U - Update items in a list\n    private void modifyGroceryItem(String newItem){\n        int position = findItem(newItem);\n        if (position >= 0){\n            modifyGroceryItem(position, newItem);\n        }\n    }\n    public void modifyGroceryItem(int position, String newItem){\n        groceryList.set(position, newItem);\n        System.out.println(\"Grocery item \" + (position + 1) + \" has been modified\");\n    }\n\n    // D - Delete an item from a list\n    public void removeGroceryItem(String item){\n        int position = findItem(item);\n        if (position >= 0) {\n            removeGroceryItem(position);\n        }\n    }\n    public void removeGroceryItem(int position){\n        String theItem = groceryList.get(position);\n        groceryList.remove(position);\n    }\n\n    public int findItem(String searchItem){\n\n       return groceryList.indexOf(searchItem);\n        //OR\n//        int position = groceryList.indexOf(searchItem);\n//        if (position >= 0){\n//            return groceryList.get(position);\n//        }\n//        return null;\n    }\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/timbChalka/ARRAYLIST/GroceryList.java b/src/main/java/org/example/timbChalka/ARRAYLIST/GroceryList.java
+--- a/src/main/java/org/example/timbChalka/ARRAYLIST/GroceryList.java	(revision 5599b9462fb19ae1e11e06ccd6afc6bb05232602)
++++ b/src/main/java/org/example/timbChalka/ARRAYLIST/GroceryList.java	(date 1703543280599)
+@@ -5,6 +5,10 @@
+ public class GroceryList {
+     private ArrayList<String> groceryList = new ArrayList<String>();
+ 
++    public ArrayList<String> getGroceryList() {
++        return groceryList;
++    }
++
+     //using CRUD
+     //C - Create or Add items to a list
+     public void addGroceryItem(String item){
+@@ -19,13 +23,13 @@
+     }
+ 
+     //U - Update items in a list
+-    private void modifyGroceryItem(String newItem){
++    public void modifyGroceryItem(String currentItem, String newItem){
+         int position = findItem(newItem);
+         if (position >= 0){
+             modifyGroceryItem(position, newItem);
+         }
+     }
+-    public void modifyGroceryItem(int position, String newItem){
++    private void modifyGroceryItem(int position, String newItem){
+         groceryList.set(position, newItem);
+         System.out.println("Grocery item " + (position + 1) + " has been modified");
+     }
+@@ -37,12 +41,11 @@
+             removeGroceryItem(position);
+         }
+     }
+-    public void removeGroceryItem(int position){
+-        String theItem = groceryList.get(position);
++    private void removeGroceryItem(int position){
+         groceryList.remove(position);
+     }
+ 
+-    public int findItem(String searchItem){
++    private int findItem(String searchItem){
+ 
+        return groceryList.indexOf(searchItem);
+         //OR
+@@ -52,6 +55,13 @@
+ //        }
+ //        return null;
+     }
++    public boolean onFile(String searchItem){
++        int position = findItem(searchItem);
++        if (position >= 0){
++            return true;
++        }
++        return false;
++    }
+ }
+ 
+ 
+Index: src/main/java/org/example/timbChalka/ARRAYLIST/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.timbChalka.ARRAYLIST;\n\nimport java.util.Scanner;\n\npublic class Main {\n    private static Scanner scanner = new Scanner(System.in);\n    private static GroceryList groceryList = new GroceryList();\n        public static void main(String[] args) {\n\n            boolean quit = false;\n            int choice = 0;\n            printInstruction();\n            while (!quit){\n                System.out.println(\"Enter your choice ->> \");\n                choice = scanner.nextInt();\n                scanner.nextLine();\n\n                switch (choice) {\n                    case 0:\n                        printInstruction();\n                        break;\n                    case 1:\n                        groceryList.printGroceryList();\n                        break;\n                    case 2:\n                        addItem();\n                        break;\n                    case 3:\n                        modifyItem();\n                        break;\n                    case 4:\n                        removeItem();\n                        break;\n                    case 5:\n                        searchForItem();\n                        break;\n                    case 6:\n                        quit = true;\n                        break;\n                }\n            }\n    }\n\n    public static  void printInstruction(){\n        System.out.println(\"\\npress\");\n        System.out.println(\"\\t 0 - To print choice options.\");\n        System.out.println(\"\\t 1 - To print the list of grocery items.\");\n        System.out.println(\"\\t 2 - To add an item to the list.\");\n        System.out.println(\"\\t 3 - To modify an item in the list.\");\n        System.out.println(\"\\t 4 - To remove the item from the list.\");\n        System.out.println(\"\\t 5 - To search for an item from the list\");\n        System.out.println(\"\\t 6 - To quit the application.\");\n    }\n\n    public static void addItem(){\n        System.out.print(\"Please enter the grocery item: \");\n        groceryList.addGroceryItem(scanner.nextLine());\n    }\n\n    public static void modifyItem(){\n        System.out.print(\"Enter item number: \");\n        int itemNo = scanner.nextInt();\n        scanner.nextLine();\n        System.out.print(\"Enter replacement item: \");\n        String newItem = scanner.nextLine();\n        groceryList.modifyGroceryItem(itemNo - 1, newItem);\n    }\n\n    public static void removeItem(){\n        System.out.print(\"Enter item number: \");\n        int itemNo = scanner.nextInt();\n        System.out.print(\"Enter replacement item: \");\n        groceryList.removeGroceryItem(itemNo - 1);\n    }\n\n    public static void searchForItem() {\n        System.out.print(\"Enter Item to search for: \");\n        String searchItem = scanner.nextLine();\n        if (groceryList.findItem(searchItem) != null) {\n            System.out.print(\"Found \"+ searchItem + \" in our grocery list\");\n        } else {\n            System.out.println(searchItem + \" is not in our shopping list\");\n        }\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/timbChalka/ARRAYLIST/Main.java b/src/main/java/org/example/timbChalka/ARRAYLIST/Main.java
+--- a/src/main/java/org/example/timbChalka/ARRAYLIST/Main.java	(revision 5599b9462fb19ae1e11e06ccd6afc6bb05232602)
++++ b/src/main/java/org/example/timbChalka/ARRAYLIST/Main.java	(date 1703544333555)
+@@ -1,5 +1,6 @@
+ package org.example.timbChalka.ARRAYLIST;
+ 
++import java.util.ArrayList;
+ import java.util.Scanner;
+ 
+ public class Main {
+@@ -35,6 +36,9 @@
+                         searchForItem();
+                         break;
+                     case 6:
++                        processArrayList();
++                        break;
++                    case 7:
+                         quit = true;
+                         break;
+                 }
+@@ -42,7 +46,7 @@
+     }
+ 
+     public static  void printInstruction(){
+-        System.out.println("\npress");
++        System.out.println("\n Press");
+         System.out.println("\t 0 - To print choice options.");
+         System.out.println("\t 1 - To print the list of grocery items.");
+         System.out.println("\t 2 - To add an item to the list.");
+@@ -58,28 +62,39 @@
+     }
+ 
+     public static void modifyItem(){
+-        System.out.print("Enter item number: ");
+-        int itemNo = scanner.nextInt();
+-        scanner.nextLine();
++        System.out.print("Current Item name: ");
++        String itemNo = scanner.nextLine();
+         System.out.print("Enter replacement item: ");
+         String newItem = scanner.nextLine();
+-        groceryList.modifyGroceryItem(itemNo - 1, newItem);
++        groceryList.modifyGroceryItem(itemNo, newItem);
+     }
+ 
+     public static void removeItem(){
+-        System.out.print("Enter item number: ");
+-        int itemNo = scanner.nextInt();
++        System.out.print("Enter item name: ");
++        String itemNo = scanner.nextLine();
+         System.out.print("Enter replacement item: ");
+-        groceryList.removeGroceryItem(itemNo - 1);
++        groceryList.removeGroceryItem(itemNo);
+     }
+ 
+     public static void searchForItem() {
+         System.out.print("Enter Item to search for: ");
+         String searchItem = scanner.nextLine();
+-        if (groceryList.findItem(searchItem) != null) {
+-            System.out.print("Found "+ searchItem + " in our grocery list");
++        if (groceryList.onFile(searchItem)) {
++            System.out.print("Found "+ searchItem + " i n our grocery list");
+         } else {
+             System.out.println(searchItem + " is not in our shopping list");
+         }
+     }
++//A method to copy an array list to anothe array list
++    public static void processArrayList(){
++        ArrayList<String> newArray = new ArrayList<>();
++        newArray.addAll(groceryList.getGroceryList());
++
++//        OR
++//        ArrayList<String> nextArray = new ArrayList<>(groceryList.getGroceryList());
++//        OR to copy from Arraylist to a normal array
++
++        String[] myArray = new String[groceryList.getGroceryList().size()];
++        myArray = groceryList.getGroceryList().toArray(myArray);
++    }
+ }
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\n    <modelVersion>4.0.0</modelVersion>\n\n    <groupId>org.example</groupId>\n    <artifactId>edurekesFollowUp</artifactId>\n    <version>1.0-SNAPSHOT</version>\n\n    <properties>\n        <maven.compiler.source>17</maven.compiler.source>\n        <maven.compiler.target>17</maven.compiler.target>\n        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\n    </properties>\n\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	(revision 5599b9462fb19ae1e11e06ccd6afc6bb05232602)
++++ b/pom.xml	(date 1703677904707)
+@@ -13,5 +13,18 @@
+         <maven.compiler.target>17</maven.compiler.target>
+         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     </properties>
++    <build>
++        <plugins>
++            <plugin>
++                <groupId>org.apache.maven.plugins</groupId>
++                <artifactId>maven-compiler-plugin</artifactId>
++                <configuration>
++                    <source>21</source>
++                    <target>21</target>
++                    <compilerArgs>--enable-preview</compilerArgs>
++                </configuration>
++            </plugin>
++        </plugins>
++    </build>
+ 
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"e0930c3a-60ae-45bd-866e-be6fbe42888c\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/ArrayResize.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/ArrayTut.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/MinimumElementChallenge.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/ReverseArrayChallenge.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/GroceryList.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/Main.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 3\n}</component>\n  <component name=\"ProjectId\" id=\"2R54iJEjlFxzlJpUoBKBEeDdd3f\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Application.ArrayResize.executor\": \"Run\",\n    \"Application.ArrayTut.executor\": \"Run\",\n    \"Application.Main.executor\": \"Run\",\n    \"Application.MinimumElementChallenge.executor\": \"Run\",\n    \"Application.ReverseArrayChallenge.executor\": \"Run\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"git-widget-placeholder\": \"main\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"project.structure.last.edited\": \"Project\",\n    \"project.structure.proportion\": \"0.0\",\n    \"project.structure.side.proportion\": \"0.0\",\n    \"settings.editor.selected.configurable\": \"editor.preferences.fonts.default\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"org.example.timbChalka.POLIMORPHYSM.Challenge\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Application.Main\">\n    <configuration name=\"ArrayResize\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.timbChalka.ARRAY.ArrayResize\" />\n      <module name=\"edurekesFollowUp\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"org.example.timbChalka.ARRAY.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"ArrayTut\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.timbChalka.ARRAY.ArrayTut\" />\n      <module name=\"edurekesFollowUp\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"org.example.timbChalka.ARRAYLIST.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.timbChalka.ARRAYLIST.Main\" />\n      <module name=\"edurekesFollowUp\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"org.example.timbChalka.ARRAYLIST.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"MinimumElementChallenge\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.timbChalka.ARRAY.MinimumElementChallenge\" />\n      <module name=\"edurekesFollowUp\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"org.example.timbChalka.ARRAYLIST.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"ReverseArrayChallenge\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.timbChalka.ARRAY.ReverseArrayChallenge\" />\n      <module name=\"edurekesFollowUp\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"org.example.timbChalka.ARRAYLIST.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.Main\" />\n        <item itemvalue=\"Application.ArrayResize\" />\n        <item itemvalue=\"Application.ReverseArrayChallenge\" />\n        <item itemvalue=\"Application.MinimumElementChallenge\" />\n        <item itemvalue=\"Application.ArrayTut\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"jdk-17.0.9-corretto-17.0.9-249ae16d76d6-7c0527ad\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"e0930c3a-60ae-45bd-866e-be6fbe42888c\" name=\"Changes\" comment=\"\" />\n      <created>1686526736459</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1686526736459</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\n    <expand />\n    <select />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 5599b9462fb19ae1e11e06ccd6afc6bb05232602)
++++ b/.idea/workspace.xml	(date 1703690298936)
+@@ -4,15 +4,15 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e0930c3a-60ae-45bd-866e-be6fbe42888c" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/ArrayResize.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/ArrayTut.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/MinimumElementChallenge.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/ReverseArrayChallenge.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/GroceryList.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/Main.java" afterDir="false" />
++    <list default="true" id="e0930c3a-60ae-45bd-866e-be6fbe42888c" name="Changes" comment="Initial commit">
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/CHALLENGE/Contact.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/CHALLENGE/Main.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/CHALLENGE/MobilePhone.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/GroceryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/GroceryList.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAYLIST/Main.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -27,6 +27,11 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="PREVIOUS_COMMIT_AUTHORS">
++      <list>
++        <option value="techub &lt;tech4phil@outlook.com&gt;" />
++      </list>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="ProjectColorInfo">{
+@@ -38,24 +43,24 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.ArrayResize.executor": "Run",
+-    "Application.ArrayTut.executor": "Run",
+-    "Application.Main.executor": "Run",
+-    "Application.MinimumElementChallenge.executor": "Run",
+-    "Application.ReverseArrayChallenge.executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "main",
+-    "kotlin-language-version-configured": "true",
+-    "project.structure.last.edited": "Project",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.0",
+-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Application.ArrayResize.executor&quot;: &quot;Run&quot;,
++    &quot;Application.ArrayTut.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
++    &quot;Application.MinimumElementChallenge.executor&quot;: &quot;Run&quot;,
++    &quot;Application.ReverseArrayChallenge.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyClassDialog.RECENTS_KEY">
+       <recent name="org.example.timbChalka.POLIMORPHYSM.Challenge" />
+@@ -141,6 +146,7 @@
+     <attachedChunks>
+       <set>
+         <option value="jdk-17.0.9-corretto-17.0.9-249ae16d76d6-7c0527ad" />
++        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-76dd8dae" />
+       </set>
+     </attachedChunks>
+   </component>
+@@ -153,6 +159,23 @@
+       <option name="presentableId" value="Default" />
+       <updated>1686526736459</updated>
+     </task>
++    <task id="LOCAL-00001" summary="Initial commit">
++      <option name="closed" value="true" />
++      <created>1703381605073</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1703381605073</updated>
++    </task>
++    <task id="LOCAL-00002" summary="Initial commit">
++      <option name="closed" value="true" />
++      <created>1703381620866</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1703381620866</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -165,6 +188,10 @@
+         </entry>
+       </map>
+     </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Initial commit" />
++    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+   </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+     <expand />
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\n  <component name=\"MavenProjectsManager\">\n    <option name=\"originalFiles\">\n      <list>\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\n      </list>\n    </option>\n    <option name=\"workspaceImportForciblyTurnedOn\" value=\"true\" />\n  </component>\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_1_8\" project-jdk-name=\"17\" project-jdk-type=\"JavaSDK\">\n    <output url=\"file://$PROJECT_DIR$/out\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 5599b9462fb19ae1e11e06ccd6afc6bb05232602)
++++ b/.idea/misc.xml	(date 1703677906874)
+@@ -9,7 +9,7 @@
+     </option>
+     <option name="workspaceImportForciblyTurnedOn" value="true" />
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="17" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/main/java/org/example/timbChalka/ARRAYLIST/CHALLENGE/MobilePhone.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/timbChalka/ARRAYLIST/CHALLENGE/MobilePhone.java b/src/main/java/org/example/timbChalka/ARRAYLIST/CHALLENGE/MobilePhone.java
+new file mode 100644
+--- /dev/null	(date 1703591814547)
++++ b/src/main/java/org/example/timbChalka/ARRAYLIST/CHALLENGE/MobilePhone.java	(date 1703591814547)
+@@ -0,0 +1,111 @@
++package org.example.timbChalka.ARRAYLIST.CHALLENGE;
++
++import java.util.ArrayList;
++
++public class MobilePhone {
++    private String myNumber;
++    private ArrayList<Contact> myContacts;
++
++    public MobilePhone(String myNumber) {
++        this.myNumber = myNumber;
++        this.myContacts = new ArrayList<Contact>();
++    }
++
++    public boolean addNewContact(Contact contact){
++        if (findContact(contact.getName()) >= 0) {
++            System.out.println(contact+" as Contact already exist");
++            return false;
++        }
++        myContacts.add(contact);
++        return true;
++    }
++
++    public boolean updateCOntact(Contact oldContact, Contact newContact){
++        int foundPosition = findContact(oldContact);
++        if (foundPosition < 0){
++            System.out.println(oldContact.getName()+ " is not found.");
++            return false;
++        }
++        this.myContacts.set(foundPosition, newContact);
++        System.out.println(oldContact.getName()+" was replaced with "+ newContact.getName());
++        return true;
++    }
++    public boolean removeContact(Contact contact){
++        int foundPosition = findContact(contact);
++        if (foundPosition < 0){
++            System.out.println(contact.getName()+ " is not found.");
++            return false;
++        }
++        this.myContacts.remove(foundPosition);
++        System.out.println(contact.getName()+" was deleted.");
++        return true;
++    }
++    private int findContact(Contact contact){
++        return this.myContacts.indexOf(contact);
++    }
++    private int findContact(String contactName){
++        for (int i = 0; i < this.myContacts.size(); i++) {
++            Contact contact = this.myContacts.get(i);
++            if (contact.getName().equals(contactName)){
++                return i;
++            }
++        }
++        return -1;
++    }
++
++    public String queryContact(Contact contact){
++        if (findContact(contact) >= 0){
++            return contact.getName();
++        }
++        return null;
++    }
++
++    public void printContacts(){
++        System.out.println("Contact list");
++        for (int i = 0; i < this.myContacts.size(); i++) {
++            System.out.println((i + 1)+" . "+ this.myContacts.get(i).getName()+ " -->"+ this.myContacts.get(i).getPhoneNumber());
++        }
++    }
++//    private ArrayList<String> contacts = new ArrayList<String>();
++//
++//    public ArrayList<String> getContacts() {
++//        return contacts;
++//    }
++//
++//    public void addContact(String contact){
++//        contacts.add(contact);
++//
++//    }
++//
++//    public void modifyContact(String currentContact, String newContact){
++//        int position = findContact(newContact);
++//        if (position >= 0){
++//            modifyContact(position, newContact);
++//        }
++//    }
++//    private void modifyContact(int position, String newContact){
++//        contacts.set(position, newContact);
++//        System.out.println("Contact at number "+ (position + 1)+ " has been saved");
++//    }
++//
++//    public void removeContact(String newContact){
++//        int position = findContact(newContact);
++//        if (position >= 0){
++//            removeContact(newContact);
++//        }
++//    }
++//    private void removeContact(int position){
++//        contacts.remove(position);
++//    }
++//
++//    private int findContact(String searchName){
++//        return contacts.indexOf(searchName);
++//    }
++//    public boolean onFile(String searchName){
++//        int position = findContact(searchName);
++//        if (position >= 0){
++//            return true;
++//        }
++//        return false;
++//    }
++}
+Index: src/main/java/org/example/timbChalka/ARRAYLIST/CHALLENGE/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/timbChalka/ARRAYLIST/CHALLENGE/Main.java b/src/main/java/org/example/timbChalka/ARRAYLIST/CHALLENGE/Main.java
+new file mode 100644
+--- /dev/null	(date 1703690298356)
++++ b/src/main/java/org/example/timbChalka/ARRAYLIST/CHALLENGE/Main.java	(date 1703690298356)
+@@ -0,0 +1,49 @@
++package org.example.timbChalka.ARRAYLIST.CHALLENGE;
++
++import java.util.Scanner;
++
++public class Main {
++    private static Scanner scanner = new Scanner(System.in);
++    private static MobilePhone mobilePhone = new MobilePhone("08186082057");
++    
++    public static void main(String[] args) {
++        boolean quit = false;
++        startPhone();
++        printAction();
++        while (!quit) {
++            System.out.println("\n Enter action: (6 to show available actions)");
++            int action = scanner.nextInt();
++            scanner.nextLine();
++
++            switch (action) {
++                case 0:
++                    System.out.println("\nShoting down...");
++                    quit = true;
++                    break;
++                case 1:
++                    mobilePhone.printContacts();
++                    break;
++                case 2:
++                    addContact();
++                    break;
++                case 3:
++                    updateContact();
++                    break;
++                case 4:
++                    removeContact();
++                    break;
++                case 5:
++                    queryContact();
++                    break;
++                case 6:
++                    printAction();
++                    break;
++            }
++        }
++
++    }
++
++    }
++}
++
++00-
+\ No newline at end of file
+Index: src/main/java/org/example/timbChalka/ARRAYLIST/CHALLENGE/Contact.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/timbChalka/ARRAYLIST/CHALLENGE/Contact.java b/src/main/java/org/example/timbChalka/ARRAYLIST/CHALLENGE/Contact.java
+new file mode 100644
+--- /dev/null	(date 1703557220895)
++++ b/src/main/java/org/example/timbChalka/ARRAYLIST/CHALLENGE/Contact.java	(date 1703557220895)
+@@ -0,0 +1,31 @@
++package org.example.timbChalka.ARRAYLIST.CHALLENGE;
++
++public class Contact {
++    private String name;
++    private String phoneNumber;
++
++    public Contact(String name, String phoneNumber) {
++        this.name = name;
++        this.phoneNumber = phoneNumber;
++    }
++
++    public String getName() {
++        return name;
++    }
++
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    public String getPhoneNumber() {
++        return phoneNumber;
++    }
++
++    public void setPhoneNumber(String phoneNumber) {
++        this.phoneNumber = phoneNumber;
++    }
++
++    public static Contact createContact(String name, String phoneNumber){
++        return new Contact(name, phoneNumber);
++    }
++}
