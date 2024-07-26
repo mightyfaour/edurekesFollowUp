@@ -4,29 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0930c3a-60ae-45bd-866e-be6fbe42888c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/Array2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/DeskPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ITelephone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/MobilePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/InterfaceChallenge/ISaveable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/InterfaceChallenge/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/InterfaceChallenge/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/Song.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Addition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Condition3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Conditions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Conditions2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/LINKEDLIST/CHALLENGE/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Methods_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Object_Classes.java" afterDir="false" />
+    <list default="true" id="e0930c3a-60ae-45bd-866e-be6fbe42888c" name="Changes" comment="update 1.1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/AraaySample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/ArraySample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/ArrayTut1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/JaggedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/ThreeDimensionalArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/fizzbuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/LoveCal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Method1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Method_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/SuperKeyWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/StringTutorial/StringTutorials.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/LINKEDLIST/CHALLENGE/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/LINKEDLIST/CHALLENGE/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/LINKEDLIST/CHALLENGE/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/LINKEDLIST/CHALLENGE/Song.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,44 +44,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Addition.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Array2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayResize.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayTut.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Conditions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Conditions2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Methods_1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumElementChallenge.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseArrayChallenge.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sample1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.timbChalka.ARRAYLIST.AutoboxingAndUnboxingChallenge.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.timbChalka.ARRAYLIST.CHALLENGE.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.timbChalka.AbstractClass.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.timbChalka.AbstractClass.ReOrganising.CHALLENGE.InterfaceChallenge.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.example.timbChalka.LINKEDLIST.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/philip_neo/Desktop/All_Backend/edurekesFollowUp/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Addition.executor": "Run",
+    "Application.Array2.executor": "Run",
+    "Application.ArrayResize.executor": "Run",
+    "Application.ArraySample1.executor": "Run",
+    "Application.ArrayTut.executor": "Run",
+    "Application.ArrayTut1.executor": "Run",
+    "Application.Conditions.executor": "Run",
+    "Application.Conditions2.executor": "Run",
+    "Application.Demo.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.JaggedArray.executor": "Run",
+    "Application.LoveCal.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Method1.executor": "Run",
+    "Application.Method_2.executor": "Run",
+    "Application.Methods_1.executor": "Run",
+    "Application.MinimumElementChallenge.executor": "Run",
+    "Application.ReverseArrayChallenge.executor": "Run",
+    "Application.Sample1.executor": "Run",
+    "Application.StringTutorials.executor": "Run",
+    "Application.SuperKeyWord.executor": "Run",
+    "Application.fizzbuzz.executor": "Run",
+    "Application.org.example.timbChalka.ARRAYLIST.AutoboxingAndUnboxingChallenge.Main.executor": "Run",
+    "Application.org.example.timbChalka.ARRAYLIST.CHALLENGE.Main.executor": "Run",
+    "Application.org.example.timbChalka.AbstractClass.Main.executor": "Run",
+    "Application.org.example.timbChalka.AbstractClass.ReOrganising.CHALLENGE.InterfaceChallenge.Main.executor": "Run",
+    "Application.org.example.timbChalka.LINKEDLIST.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/philip_neo/Desktop/All_Backend/edurekesFollowUp/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising" />
@@ -99,9 +100,9 @@
       <recent name="org.example.timbChalka.POLIMORPHYSM.Challenge" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Methods_1">
-    <configuration name="Array2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.ARRAY.Array2" />
+  <component name="RunManager" selected="Application.Method1">
+    <configuration name="ArraySample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.ARRAY.ArraySample1" />
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +114,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Conditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.Conditions" />
+    <configuration name="JaggedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.ARRAY.JaggedArray" />
+      <module name="edurekesFollowUp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.timbChalka.ARRAY.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Method1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.Method1" />
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
@@ -126,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Conditions2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.Conditions2" />
+    <configuration name="StringTutorials" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.StringTutorial.StringTutorials" />
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.timbChalka.*" />
+          <option name="PATTERN" value="org.example.timbChalka.StringTutorial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,25 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Methods_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.Methods_1" />
+    <configuration name="fizzbuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.ARRAY.fizzbuzz" />
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.timbChalka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Object_Classes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.Object_Classes" />
-      <module name="edurekesFollowUp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.timbChalka.*" />
+          <option name="PATTERN" value="org.example.timbChalka.ARRAY.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Methods_1" />
-        <item itemvalue="Application.Object_Classes" />
-        <item itemvalue="Application.Conditions2" />
-        <item itemvalue="Application.Conditions" />
-        <item itemvalue="Application.Array2" />
+        <item itemvalue="Application.Method1" />
+        <item itemvalue="Application.fizzbuzz" />
+        <item itemvalue="Application.StringTutorials" />
+        <item itemvalue="Application.ArraySample1" />
+        <item itemvalue="Application.JaggedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -198,8 +199,30 @@
       <workItem from="1721477181998" duration="7232000" />
       <workItem from="1721572013428" duration="1145000" />
       <workItem from="1721603413852" duration="2209000" />
-      <workItem from="1721648265974" duration="3004000" />
+      <workItem from="1721648265974" duration="10161000" />
+      <workItem from="1721827364684" duration="6735000" />
+      <workItem from="1721905081467" duration="2947000" />
+      <workItem from="1721909213960" duration="4052000" />
+      <workItem from="1721951902936" duration="2332000" />
+      <workItem from="1721991919568" duration="2034000" />
     </task>
+    <task id="LOCAL-00001" summary="update 1">
+      <option name="closed" value="true" />
+      <created>1721651372881</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721651372882</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update 1.1">
+      <option name="closed" value="true" />
+      <created>1721651408762</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721651408762</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +238,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update 1" />
+    <MESSAGE value="update 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 1.1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
