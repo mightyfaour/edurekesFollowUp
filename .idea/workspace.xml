@@ -5,35 +5,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0930c3a-60ae-45bd-866e-be6fbe42888c" name="Changes" comment="update 1.1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/AraaySample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/ArraySample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/ArrayTut1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/JaggedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/ThreeDimensionalArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/fizzbuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/LoveCal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Method1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Method_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/SuperKeyWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/StringTutorial/StringTutorials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Enum/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Enum/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Intellij/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Intellij/Desktop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Intellij/IntelliJPlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Intellij/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Intellij/Tablet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Intellij/test12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NextedClass/AccessingMembers/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NextedClass/AccessingMembers/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NextedClass/CPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NextedClass/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NextedClass/StaticNested/MotherBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/Max_Mini_Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Casting/Casting_Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Interface1/Tablet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Interface1/interface_example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/InheritanceCharllenge/Bank/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/InheritanceCharllenge/Bank/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/DeskPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/DeskPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ITelephone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/ITelephone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/MobilePhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/ReOrganising/CHALLENGE/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/InterfaceChallenge/ISaveable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/ReOrganising/CHALLENGE/InterfaceChallenge/ISaveable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/InterfaceChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/ReOrganising/CHALLENGE/InterfaceChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/InterfaceChallenge/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/ReOrganising/CHALLENGE/InterfaceChallenge/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/ReOrganising/CHALLENGE/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/ReOrganising/CHALLENGE/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ENCAPSULATION/EnhancedPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/ENCAPSULATION/EnhancedPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ENCAPSULATION/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/ENCAPSULATION/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ENCAPSULATION/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/ENCAPSULATION/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/InheritanceCharllenge/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/InheritanceCharllenge/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/InheritanceCharllenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/InheritanceCharllenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/InheritanceCharllenge/OutLander.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/InheritanceCharllenge/OutLander.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/InheritanceCharllenge/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/InheritanceCharllenge/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/POLIMORPHYSM/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/POLIMORPHYSM/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/POLIMORPHYSM/Challenge/DeluxBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/POLIMORPHYSM/Challenge/DeluxBurger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/POLIMORPHYSM/Challenge/Hamburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/POLIMORPHYSM/Challenge/Hamburger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/POLIMORPHYSM/Challenge/HealthyBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/POLIMORPHYSM/Challenge/HealthyBurger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/POLIMORPHYSM/Challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/POLIMORPHYSM/Challenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/POLIMORPHYSM/Challenge/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/POLIMORPHYSM/Challenge/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/POLIMORPHYSM/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/POLIMORPHYSM/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -52,22 +91,28 @@
     "Application.ArraySample1.executor": "Run",
     "Application.ArrayTut.executor": "Run",
     "Application.ArrayTut1.executor": "Run",
+    "Application.Casting_Demo.executor": "Run",
     "Application.Conditions.executor": "Run",
     "Application.Conditions2.executor": "Run",
     "Application.Demo.executor": "Run",
     "Application.Factorial.executor": "Run",
+    "Application.IntelliJPlatform.executor": "Run",
     "Application.JaggedArray.executor": "Run",
     "Application.LoveCal.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Max_Mini_Value.executor": "Run",
     "Application.Method1.executor": "Run",
     "Application.Method_2.executor": "Run",
     "Application.Methods_1.executor": "Run",
     "Application.MinimumElementChallenge.executor": "Run",
+    "Application.MotherBoard.executor": "Run",
     "Application.ReverseArrayChallenge.executor": "Run",
     "Application.Sample1.executor": "Run",
     "Application.StringTutorials.executor": "Run",
     "Application.SuperKeyWord.executor": "Run",
     "Application.fizzbuzz.executor": "Run",
+    "Application.interface_example.executor": "Run",
+    "Application.org.example.NextedClass.AccessingMembers.Main.executor": "Run",
     "Application.org.example.timbChalka.ARRAYLIST.AutoboxingAndUnboxingChallenge.Main.executor": "Run",
     "Application.org.example.timbChalka.ARRAYLIST.CHALLENGE.Main.executor": "Run",
     "Application.org.example.timbChalka.AbstractClass.Main.executor": "Run",
@@ -76,6 +121,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "ignore.preview.features.used": "true",
     "kotlin-language-version-configured": "true",
@@ -89,10 +136,14 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.timbChalka.Interface1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising" />
     </key>
@@ -100,13 +151,13 @@
       <recent name="org.example.timbChalka.POLIMORPHYSM.Challenge" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Method1">
-    <configuration name="ArraySample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.ARRAY.ArraySample1" />
+  <component name="RunManager" selected="Application.MotherBoard">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Enum.Demo" />
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.timbChalka.ARRAY.*" />
+          <option name="PATTERN" value="org.example.Enum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JaggedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.ARRAY.JaggedArray" />
+    <configuration name="IntelliJPlatform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Intellij.IntelliJPlatform" />
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.timbChalka.ARRAY.*" />
+          <option name="PATTERN" value="org.example.Intellij.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Method1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.Method1" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.NextedClass.Main" />
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.timbChalka.*" />
+          <option name="PATTERN" value="org.example.NextedClass.AccessingMembers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTutorials" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.StringTutorial.StringTutorials" />
+    <configuration name="MotherBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.NextedClass.StaticNested.MotherBoard" />
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.timbChalka.StringTutorial.*" />
+          <option name="PATTERN" value="org.example.NextedClass.StaticNested.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fizzbuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.timbChalka.ARRAY.fizzbuzz" />
+    <configuration name="org.example.NextedClass.AccessingMembers.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.NextedClass.AccessingMembers.Main" />
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.timbChalka.ARRAY.*" />
+          <option name="PATTERN" value="org.example.NextedClass.AccessingMembers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,19 +219,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Method1" />
-        <item itemvalue="Application.fizzbuzz" />
-        <item itemvalue="Application.StringTutorials" />
-        <item itemvalue="Application.ArraySample1" />
-        <item itemvalue="Application.JaggedArray" />
+        <item itemvalue="Application.MotherBoard" />
+        <item itemvalue="Application.org.example.NextedClass.AccessingMembers.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.IntelliJPlatform" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18968.26" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18968.26" />
       </set>
     </attachedChunks>
   </component>
@@ -205,6 +256,13 @@
       <workItem from="1721909213960" duration="4052000" />
       <workItem from="1721951902936" duration="2332000" />
       <workItem from="1721991919568" duration="2034000" />
+      <workItem from="1722450546685" duration="2381000" />
+      <workItem from="1722778818782" duration="995000" />
+      <workItem from="1722927482791" duration="6049000" />
+      <workItem from="1723110159306" duration="960000" />
+      <workItem from="1723132492773" duration="8633000" />
+      <workItem from="1723161568586" duration="634000" />
+      <workItem from="1723710198634" duration="422000" />
     </task>
     <task id="LOCAL-00001" summary="update 1">
       <option name="closed" value="true" />

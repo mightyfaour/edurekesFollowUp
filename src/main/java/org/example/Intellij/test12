@@ -1,0 +1,10 @@
+src
+└── org
+    └── example
+        └── intelliJ
+            ├── Computer.java(interface)
+            ├── Laptop.java
+            ├── Desktop.java
+            ├── Tablet.java
+            └── IntelliJPlatform.java
+            |__
