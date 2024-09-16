@@ -4,52 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0930c3a-60ae-45bd-866e-be6fbe42888c" name="Changes" comment="update 1.1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Enum/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Enum/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Intellij/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Intellij/Desktop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Intellij/IntelliJPlatform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Intellij/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Intellij/Tablet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Intellij/test12" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NextedClass/AccessingMembers/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NextedClass/AccessingMembers/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NextedClass/CPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NextedClass/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NextedClass/StaticNested/MotherBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ARRAY/Max_Mini_Value.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Casting/Casting_Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Interface1/Tablet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/Interface1/interface_example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/InheritanceCharllenge/Bank/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/InheritanceCharllenge/Bank/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e0930c3a-60ae-45bd-866e-be6fbe42888c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AdvanceJava10/NewClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Collections/List1/ArrayList/ConvertArrayListToArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Collections/List1/ArrayList/ConvertArrayToArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Collections/List1/ArrayList/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Collections/List1/ArrayList/SortedMethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Collections/List1/ArrayList/SortingStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Collections/List1/ArrayList/UsingCompareMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Collections/List1/VECTOR/Vectorss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Collections/QUEUE/PriorityQueue/PriorityQueues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Collections/Set/ToCreateASet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestingPack/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestingPack/LaunchCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestingPack/LearningTest/dao/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestingPack/LearningTest/dao/JavaCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestingPack/LearningTest/dao/JunitCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestingPack/LearningTest/dao/PythonCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestingPack/LearningTest/dao/SpringbootCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestingPack/LearningTest/service/PurchasedCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestingPack/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestingPack/Shapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestingPack/SortingArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ThreadsPractice/ThreadAndSynchronisation/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ThreadsPractice/ThreadAndSynchronisation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ThreadsPractice/ThreadAndSynchronisation/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ThreadsPractice/ThreadExtentionPractice1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ThreadsPractice/ThreadExtentionPractice1/MyThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ThreadsPractice/ThreadRunnableInterface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ThreadsPractice/ThreadRunnableInterface/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TestingPack/CalcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TestingPack/LearningTest/service/PurchasedCourseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TestingPack/ReverseStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TestingPack/ShapesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TestingPack/SortingArrayTestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/DeskPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/DeskPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ITelephone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/ITelephone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/MobilePhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/ReOrganising/CHALLENGE/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/InterfaceChallenge/ISaveable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/ReOrganising/CHALLENGE/InterfaceChallenge/ISaveable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/InterfaceChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/ReOrganising/CHALLENGE/InterfaceChallenge/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/InterfaceChallenge/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/ReOrganising/CHALLENGE/InterfaceChallenge/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/ReOrganising/CHALLENGE/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising/CHALLENGE/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/AbstractClass/ReOrganising/CHALLENGE/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ENCAPSULATION/EnhancedPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/ENCAPSULATION/EnhancedPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ENCAPSULATION/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/ENCAPSULATION/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/ENCAPSULATION/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/ENCAPSULATION/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/InheritanceCharllenge/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/InheritanceCharllenge/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/InheritanceCharllenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/InheritanceCharllenge/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/InheritanceCharllenge/OutLander.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/InheritanceCharllenge/OutLander.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/InheritanceCharllenge/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/InheritanceCharllenge/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/POLIMORPHYSM/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/POLIMORPHYSM/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/POLIMORPHYSM/Challenge/DeluxBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/POLIMORPHYSM/Challenge/DeluxBurger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/POLIMORPHYSM/Challenge/Hamburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/POLIMORPHYSM/Challenge/Hamburger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/POLIMORPHYSM/Challenge/HealthyBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/POLIMORPHYSM/Challenge/HealthyBurger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/POLIMORPHYSM/Challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/POLIMORPHYSM/Challenge/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/POLIMORPHYSM/Challenge/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/POLIMORPHYSM/Challenge/Starter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/POLIMORPHYSM/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/timbChalka/OOP/POLIMORPHYSM/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArrayDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +55,18 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
+        <option value="JUnit3 Test Class" />
+        <option value="Exception" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/ArrayList/ConvertArrayToArrayList.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -94,6 +91,8 @@
     "Application.Casting_Demo.executor": "Run",
     "Application.Conditions.executor": "Run",
     "Application.Conditions2.executor": "Run",
+    "Application.ConvertArrayListToArray.executor": "Run",
+    "Application.ConvertArrayToArrayList.executor": "Run",
     "Application.Demo.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.IntelliJPlatform.executor": "Run",
@@ -106,22 +105,50 @@
     "Application.Methods_1.executor": "Run",
     "Application.MinimumElementChallenge.executor": "Run",
     "Application.MotherBoard.executor": "Run",
+    "Application.NewClass.executor": "Run",
+    "Application.PriorityQueues.executor": "Run",
     "Application.ReverseArrayChallenge.executor": "Run",
     "Application.Sample1.executor": "Run",
+    "Application.SortingStrings.executor": "Run",
     "Application.StringTutorials.executor": "Run",
     "Application.SuperKeyWord.executor": "Run",
+    "Application.ToCreateASet.executor": "Run",
+    "Application.UsingCompareMethod.executor": "Run",
+    "Application.Vectorss.executor": "Run",
     "Application.fizzbuzz.executor": "Run",
     "Application.interface_example.executor": "Run",
+    "Application.org.example.ArrayList.Main.executor": "Run",
+    "Application.org.example.Collections.ArrayList.List1.SortedMethod.Main.executor": "Run",
     "Application.org.example.NextedClass.AccessingMembers.Main.executor": "Run",
+    "Application.org.example.ThreadsPractice.ThreadAndSynchronisation.Main.executor": "Run",
     "Application.org.example.timbChalka.ARRAYLIST.AutoboxingAndUnboxingChallenge.Main.executor": "Run",
     "Application.org.example.timbChalka.ARRAYLIST.CHALLENGE.Main.executor": "Run",
     "Application.org.example.timbChalka.AbstractClass.Main.executor": "Run",
     "Application.org.example.timbChalka.AbstractClass.ReOrganising.CHALLENGE.InterfaceChallenge.Main.executor": "Run",
     "Application.org.example.timbChalka.LINKEDLIST.Main.executor": "Run",
+    "JUnit.CalcTest.executor": "Run",
+    "JUnit.CalcTest.test.executor": "Run",
+    "JUnit.PurchasedCourseTest.executor": "Run",
+    "JUnit.PurchasedCourseTest.testPurchasedCourse.executor": "Run",
+    "JUnit.PurchasedCourseTest.testPurchasedCourse_JunitCourse.executor": "Debug",
+    "JUnit.PurchasedCourseTest.testPurchasedCourse_PythonCourse.executor": "Run",
+    "JUnit.ReverseStringTest.Test.executor": "Run",
+    "JUnit.ReverseStringTest.TestReverseString_multipleWorld.executor": "Run",
+    "JUnit.ReverseStringTest.TestReverseString_oneWorld_NotEquAls.executor": "Run",
+    "JUnit.ReverseStringTest.TestReverseString_oneWorld_NotEquAls_Supplier.executor": "Run",
+    "JUnit.ReverseStringTest.TestReverseString_oneWorld_Suplier.executor": "Run",
+    "JUnit.ReverseStringTest.executor": "Run",
+    "JUnit.ShapesTest.computeCircleArea.executor": "Run",
+    "JUnit.ShapesTest.computeSquareArea.executor": "Run",
+    "JUnit.ShapesTest.executor": "Run",
+    "JUnit.SortingArrayTestTest.executor": "Run",
+    "JUnit.SortingArrayTestTest.testSortingArray.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "ignore.preview.features.used": "true",
@@ -132,10 +159,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "copyright",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
@@ -147,91 +174,112 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example/timbChalka/AbstractClass/ReOrganising" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.TestingPack" />
+      <recent name="org.example.TestingPack.LearningTest.service" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.timbChalka.POLIMORPHYSM.Challenge" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MotherBoard">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Enum.Demo" />
+  <component name="RunManager" selected="JUnit.SortingArrayTestTest">
+    <configuration name="PurchasedCourseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Enum.*" />
+          <option name="PATTERN" value="org.example.TestingPack.LearningTest.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.TestingPack.LearningTest.service" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestingPack.LearningTest.service.PurchasedCourseTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntelliJPlatform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Intellij.IntelliJPlatform" />
+    <configuration name="PurchasedCourseTest.testPurchasedCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Intellij.*" />
+          <option name="PATTERN" value="org.example.TestingPack.LearningTest.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.TestingPack.LearningTest.service" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestingPack.LearningTest.service.PurchasedCourseTest" />
+      <option name="METHOD_NAME" value="testPurchasedCourse" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.NextedClass.Main" />
+    <configuration name="PurchasedCourseTest.testPurchasedCourse_PythonCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.NextedClass.AccessingMembers.*" />
+          <option name="PATTERN" value="org.example.TestingPack.LearningTest.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.TestingPack.LearningTest.service" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestingPack.LearningTest.service.PurchasedCourseTest" />
+      <option name="METHOD_NAME" value="testPurchasedCourse_PythonCourse" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MotherBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.NextedClass.StaticNested.MotherBoard" />
+    <configuration name="SortingArrayTestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.NextedClass.StaticNested.*" />
+          <option name="PATTERN" value="org.example.TestingPack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.TestingPack" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestingPack.SortingArrayTestTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.NextedClass.AccessingMembers.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.NextedClass.AccessingMembers.Main" />
+    <configuration name="SortingArrayTestTest.testSortingArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="edurekesFollowUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.NextedClass.AccessingMembers.*" />
+          <option name="PATTERN" value="org.example.TestingPack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.TestingPack" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestingPack.SortingArrayTestTest" />
+      <option name="METHOD_NAME" value="testSortingArray" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MotherBoard" />
-        <item itemvalue="Application.org.example.NextedClass.AccessingMembers.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.IntelliJPlatform" />
+        <item itemvalue="JUnit.SortingArrayTestTest" />
+        <item itemvalue="JUnit.SortingArrayTestTest.testSortingArray" />
+        <item itemvalue="JUnit.PurchasedCourseTest" />
+        <item itemvalue="JUnit.PurchasedCourseTest.testPurchasedCourse_PythonCourse" />
+        <item itemvalue="JUnit.PurchasedCourseTest.testPurchasedCourse" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18968.26" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18968.26" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
       </set>
     </attachedChunks>
   </component>
@@ -262,7 +310,19 @@
       <workItem from="1723110159306" duration="960000" />
       <workItem from="1723132492773" duration="8633000" />
       <workItem from="1723161568586" duration="634000" />
-      <workItem from="1723710198634" duration="422000" />
+      <workItem from="1723710198634" duration="1529000" />
+      <workItem from="1724187132794" duration="1768000" />
+      <workItem from="1724189046417" duration="260000" />
+      <workItem from="1724189997001" duration="2718000" />
+      <workItem from="1724219497379" duration="539000" />
+      <workItem from="1725050204811" duration="1033000" />
+      <workItem from="1725054295304" duration="1813000" />
+      <workItem from="1725140478918" duration="559000" />
+      <workItem from="1725208090762" duration="718000" />
+      <workItem from="1725349403034" duration="5627000" />
+      <workItem from="1726219980956" duration="825000" />
+      <workItem from="1726290676618" duration="10646000" />
+      <workItem from="1726426343927" duration="10515000" />
     </task>
     <task id="LOCAL-00001" summary="update 1">
       <option name="closed" value="true" />
@@ -280,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721651408762</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update 1.2">
+      <created>1723710798217</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723710798217</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,10 +367,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update 1" />
     <MESSAGE value="update 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 1.1" />
+    <MESSAGE value="update 1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 1.2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/edurekesFollowUp$ReverseStringTest_TestReverseString_multipleWorld.ic" NAME="ReverseStringTest.TestReverseString_multipleWorld Coverage Results" MODIFIED="1726447141988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.TestingPack.*</FILTER>
+    </SUITE>
   </component>
 </project>

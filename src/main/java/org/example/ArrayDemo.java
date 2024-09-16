@@ -1,6 +1,6 @@
 package org.example;
 
-//Crete an arrayhaving many characters.
+//Crete an array having many characters.
 //write a program to copy element from created array to another array
 //and also write a program to delete an elemt from an array.
 
